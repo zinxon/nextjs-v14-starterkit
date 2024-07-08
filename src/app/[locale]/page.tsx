@@ -1,5 +1,5 @@
 import { useTranslations } from 'next-intl'
-import Button from './components/Button'
+// import Button from './components/Button'
 
 export default function DashboardPage() {
   const t = useTranslations('')
@@ -14,7 +14,7 @@ export default function DashboardPage() {
           <br />
           {t('to_Your_NextJS_Apps')}
         </h1>
-        <div className='my-6 px-20 text-center text-2xl text-text-secondary'>
+        {/* <div className='my-6 px-20 text-center text-2xl text-text-secondary'>
           {t(
             'An_approachable_performant_and_versatile_boilerplate_for_building_SSR_applications'
           )}
@@ -36,9 +36,9 @@ export default function DashboardPage() {
               {t('Learn_More')}
             </Button>
           </a>
-        </div>
+        </div> */}
       </section>
-      <section className='bg-background-secondary py-20 max-lg:py-10'>
+      {/* <section className='bg-background-secondary py-20 max-lg:py-10'>
         <div className='mx-auto grid max-w-screen-lg grid-cols-3 gap-7 px-8 py-5 max-lg:max-w-fit max-lg:grid-cols-1 max-lg:gap-10'>
           <div className='text-center'>
             <h2 className='mb-3  text-xl font-semibold'>{t('Approachable')}</h2>
@@ -65,7 +65,7 @@ export default function DashboardPage() {
             </p>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   )
 }
